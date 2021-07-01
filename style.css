@@ -1,0 +1,144 @@
+.nav > li a:hover {
+color:  #ffff00;
+}
+.bg-danger{
+background:#191966 !important;
+}
+.logo img{
+padding: 1rem 0;
+}
+.main-menu {
+float: right;
+position: relative;
+margin-top: 12px;
+background: #ffffcc repeat;
+}
+.main-menu ul {
+position: relative;
+float: left;
+list-style: none;
+min-width: 250px;
+max-width: 725px;
+margin: 0;
+padding: 15px 20px;
+z-index: 100;
+}
+.main-menu ul > li {
+float: left;
+position: relative;
+margin: 0;
+background: none;
+border-radius: 17px;
+}
+.main-menu ul > li > a {
+display: block;
+padding: 0 15px;
+height: 34px;
+line-height: 34px;
+color: #44120b;
+font-size: 14px;
+font-weight: bold;
+text-decoration: none;
+text-transform: uppercase;
+}
+.main-menu ul > li > a:hover {
+color: #3232cd;
+}
+body:before {
+content: '';
+display: block;
+position: absolute;
+top: 175px;
+right: 80px;
+width: 230px;
+height: 130px;
+background: url(http://tf.freegafo.com/preview/cooker-wp-v3/wp-content/themes/cooker/images/header-bg-collage.png) 0 0 no-repeat;
+}
+body{
+background-color: #ffffcc;
+}
+.header{
+background: #801101;
+}
+.btn-custom{
+padding: 0 30px;
+height: 100%;
+line-height: 60px;
+background: #5c0d02;
+color: #d9968c !important;
+font-size: 14px;
+text-decoration: none;
+}
+.btn-custom1{
+width: 195px;
+height: 100%;
+line-height: 48px;
+background: #4f0b01;
+color: #d9968c !important;
+font-size: 18px;
+text-align: center;
+cursor: pointer;
+}
+newsletter{
+min-height: 210px;
+overflow: hidden;
+margin-top: -25px;
+padding: 60px 15px 40px 45px;
+background: url(http://tf.freegafo.com/preview/cooker-wp-v3/wp-content/themes/cooker/images/newsletter.png);
+background-repeat: no-repeat;
+background-position: top center;
+}
+
+input[type=email]{
+background:  #141452;
+color: rgba(255,255,255,0.7);
+width: 225px;
+}
+input[type=submit]{
+padding: 8px 10px;
+line-height: 13px;
+margin-left: -5px;
+background: #e4c48b;
+color: #971504;
+text-transform: uppercase;
+}
+::placeholder {
+color: rgba(255,255,255,0.7);
+opacity: 1;
+}
+
+.pale{
+background:#e2cba7;
+}
+.menu li,.social-links li{
+margin-bottom: 0.5rem;
+list-style-type: none;
+}
+a{
+color:#fff;
+}
+
+.social-links li a {
+display: block;
+height: 32px;
+color:#fff;
+margin-left: 10px;
+padding-left: 42px;
+line-height: 30px;
+text-transform: capitalize;
+background: url(http://tf.freegafo.com/preview/cooker-wp-v3/wp-content/themes/cooker/images/sprite-social-icons.png) no-repeat;
+}
+
+.facebook a {
+background-position: 0 0;
+}
+
+.twitter a {
+background-position: 0 -52px !important;
+}
+.gplus a {
+background-position: 0 -104px !important;
+}
+.rss a {
+background-position: 0 -675px !important;
+}
